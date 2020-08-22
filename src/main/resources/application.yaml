@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    password: introcks1234
+    username: root
+    url: jdbc:mysql://192.168.13.20:32000/ifaas_authority?useUnicode=true&characterEncoding=utf-8
+  jpa:
+    hibernate:
+      ddl-auto: none
